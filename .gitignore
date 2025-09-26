@@ -1,0 +1,60 @@
+## --- ビルド成果物 ---
+bin/
+obj/
+out/
+[Bb]uild/
+[Ll]ogs/
+*.log
+
+## --- VSCode 関連 ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+## --- ユーザーごとの設定ファイル（共有不要） ---
+*.user
+*.suo
+*.userprefs
+
+## --- .NET 特有のファイル ---
+project.lock.json
+project.fragment.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+## --- パッケージ管理 ---
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+*.dll
+*.exe
+
+## --- シークレット & 認証情報 ---
+*.pfx
+*.key
+*.pem
+*.crt
+secrets.json
+
+## --- その他の除外対象 ---
+*.tmp
+*.cache
+*.bak
+*.orig
+*.swp
+*.DS_Store
+Thumbs.db
+
+## --- テスト出力など ---
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+## --- Rider / JetBrains 製品（使っていなければ不要） ---
+.idea/
+*.sln.iml
