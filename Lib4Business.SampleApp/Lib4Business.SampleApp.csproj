@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Lib4Business.Core.All" Version="1.0.0" />
+      <!-- <PackageReference Include="Lib4Business.Core.All" Version="1.0.0" />-->
+
+      <ProjectReference Include="..\..\Lib4Business\All\Lib4Business.Core.All.csproj" />
   </ItemGroup>
 
 </Project>

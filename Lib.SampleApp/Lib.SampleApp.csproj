@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+    <ItemGroup>
+        <!-- <PackageReference Include="Lib.Core.All" Version="1.0.0" />-->
 
-  <ItemGroup>
-    <PackageReference Include="Lib.Core.All" Version="1.0.0" />
-  </ItemGroup>
-
+        <ProjectReference Include="..\..\Lib\All\Lib.Core.All.csproj" />
+    </ItemGroup>
 </Project>
